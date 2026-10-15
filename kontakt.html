@@ -42,18 +42,20 @@
       <!-- TODO: formulář posílá na Formspree — až si Káťa založí účet na
            formspree.io, sem se doplní skutečné ID místo TODO_FORM_ID -->
       <form class="contact-form" action="https://formspree.io/f/TODO_FORM_ID" method="POST">
-        <label>Vaše jméno
-          <input type="text" name="name" required>
-        </label>
-        <label>Váš email
-          <input type="email" name="email" required>
-        </label>
-        <label>Telefon
-          <input type="tel" name="phone">
-        </label>
-        <label>Předmět
-          <input type="text" name="subject">
-        </label>
+        <div class="form-grid">
+          <label>Vaše jméno
+            <input type="text" name="name" required>
+          </label>
+          <label>Váš email
+            <input type="email" name="email" required>
+          </label>
+          <label>Telefon
+            <input type="tel" name="phone">
+          </label>
+          <label>Předmět
+            <input type="text" name="subject">
+          </label>
+        </div>
         <label>Text zprávy
           <textarea name="message" required></textarea>
         </label>

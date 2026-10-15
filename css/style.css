@@ -318,8 +318,14 @@ section + section {
 
 /* --- kontakt --- */
 .contact-form {
-  max-width: 560px;
+  max-width: 680px;
   display: grid;
+  gap: 16px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
 
@@ -406,6 +412,10 @@ footer h2 {
 @media (max-width: 760px) {
   .nav-toggle {
     display: block;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
   }
 
   nav {
