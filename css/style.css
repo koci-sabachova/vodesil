@@ -94,7 +94,8 @@ p {
 .wrap {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 /* --- header --- */
@@ -172,7 +173,8 @@ nav a[aria-current="page"] {
 
 /* --- hero --- */
 .hero {
-  padding: 64px 0 48px;
+  padding-top: 64px;
+  padding-bottom: 48px;
   text-align: center;
 }
 
@@ -263,7 +265,7 @@ section + section {
 }
 
 .sectors {
-  padding: 16px 0 0;
+  padding-top: 16px;
 }
 
 .sectors ul {
