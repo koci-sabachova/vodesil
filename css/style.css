@@ -312,6 +312,28 @@ section + section {
   font-size: 0.95rem;
 }
 
+.bio-text .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 0.75em;
+}
+
+.bio-text .social-links a {
+  color: var(--muted);
+  display: inline-flex;
+  transition: color 0.15s;
+}
+
+.bio-text .social-links a:hover {
+  color: var(--accent);
+}
+
+.bio-text .social-links svg {
+  width: 20px;
+  height: 20px;
+}
+
 .bio:nth-child(even) img {
   order: 2;
 }
