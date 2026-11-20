@@ -2,7 +2,7 @@
 // tahle stránka si je při načtení stáhne a přepíše do míst s [data-cms].
 // Když se sheet nenačte (offline, výpadek), zůstanou původní texty z HTML.
 (function () {
-  var SHEET_CSV_URL = '';
+  var SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRNproCn8keZU3DfXi6pYa9XIKI394DMnujbz8bKmt4Zp7kcScJnkyezo4hFIfN8KR00MD1Fj3FyURW/pub?output=csv';
 
   if (!SHEET_CSV_URL) return;
 
