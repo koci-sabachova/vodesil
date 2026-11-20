@@ -75,9 +75,7 @@
       <h2 style="font-size:1.1rem; font-family:var(--sans); font-weight:600; margin-top:1.5em;">Jak nás kontaktovat</h2>
       <p class="contact-info" data-cms="kontakt-uvod">Napište nám email nebo zavolejte ohledně více informací o našich daňových službách a finančních řešeních.</p>
 
-      <!-- TODO: formulář posílá na Formspree — až si Káťa založí účet na
-           formspree.io, sem se doplní skutečné ID místo TODO_FORM_ID -->
-      <form class="contact-form" action="https://formspree.io/f/TODO_FORM_ID" method="POST">
+      <form class="contact-form" action="https://formspree.io/f/xjywebjq" method="POST">
         <div class="form-grid">
           <label>Vaše jméno
             <input type="text" name="name" required>
@@ -95,7 +93,9 @@
         <label>Text zprávy
           <textarea name="message" required></textarea>
         </label>
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
         <button type="submit" class="btn">Odeslat</button>
+        <p class="form-status" role="status" aria-live="polite" hidden></p>
       </form>
     </section>
   </main>
@@ -120,6 +120,7 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/contact-form.js"></script>
   <script src="js/cms.js" defer></script>
 </body>
 </html>

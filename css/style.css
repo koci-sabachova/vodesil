@@ -380,6 +380,20 @@ section + section {
   cursor: pointer;
 }
 
+.contact-form button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.form-status {
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+.form-status.is-error {
+  color: var(--accent-dark);
+}
+
 .contact-info {
   margin-bottom: 32px;
   color: var(--muted);
