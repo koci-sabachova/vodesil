@@ -252,6 +252,16 @@ section + section {
   border-radius: 4px;
 }
 
+.service-media--square img {
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.service-media--natural img {
+  height: auto;
+  object-fit: contain;
+}
+
 .service .price {
   margin-top: 1.5em;
   padding-top: 1em;
